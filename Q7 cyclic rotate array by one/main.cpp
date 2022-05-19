@@ -24,9 +24,7 @@ void cyclicrotate_2pointer(int a[], int n)
         i++;
     }
     for(int i=0;i<n;i++)
-    {
         cout<<a[i]<<" ";
-    }
     cout<<endl;
 }
 
