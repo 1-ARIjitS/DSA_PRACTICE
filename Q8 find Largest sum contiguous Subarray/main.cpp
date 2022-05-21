@@ -41,9 +41,7 @@ int sumlargestprefixsum(int a[], int n)
             int sum=0;
             sum+=(pre_sum[j+1]-pre_sum[i]);
             if(sum>max)
-            {
                 max=sum;
-            }
         }
     }
     return max;
