@@ -16,9 +16,7 @@ int sumlargestbrute(int a[], int n)
                 sum+=a[k];
             }
             if(sum>max)
-            {
                 max=sum;
-            }
         }
     }
     return max;
