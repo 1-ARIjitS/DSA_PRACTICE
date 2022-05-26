@@ -79,9 +79,7 @@ void mergegap(int a1[], int a2[], int m, int n)
             init_gap=(init_gap/2)+1;
     }
     for(int i=0;i<m;i++)
-    {
         cout<<a1[i]<<" ";
-    }
     cout<<endl;
     for(int j=0;j<n;j++)
     {
