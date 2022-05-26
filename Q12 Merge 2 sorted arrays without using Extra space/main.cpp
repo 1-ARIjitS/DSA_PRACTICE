@@ -31,9 +31,7 @@ void mergeinsertion(int a1[], int a2[], int m, int n)
         }
     }
     for(int i=0;i<m;i++)
-    {
         cout<<a1[i]<<" ";
-    }
     cout<<endl;
     for(int j=0;j<n;j++)
         cout<<a2[j]<<" ";
