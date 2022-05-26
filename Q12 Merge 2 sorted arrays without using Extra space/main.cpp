@@ -36,9 +36,7 @@ void mergeinsertion(int a1[], int a2[], int m, int n)
     }
     cout<<endl;
     for(int j=0;j<n;j++)
-    {
         cout<<a2[j]<<" ";
-    }
 }
 
 //method 2- using gap method
