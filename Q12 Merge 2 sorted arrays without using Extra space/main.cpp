@@ -91,6 +91,6 @@ int main()
     int a2[]={0,2,6,8,9};
     int m= sizeof(a1)/sizeof(a1[0]);
     int n= sizeof(a2)/sizeof(a2[0]);
-    //mergeinsertion(a1,a2,m,n);
-    mergegap(a1,a2,m,n);
+    mergeinsertion(a1,a2,m,n);
+    //mergegap(a1,a2,m,n);
 }
