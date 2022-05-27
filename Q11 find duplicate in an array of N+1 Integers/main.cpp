@@ -33,9 +33,7 @@ int findduphashing(int a[], int n)
     for(int i=0;i<n;i++)
     {
         if(hash_array[i]>=2)
-        {
             return i;
-        }
     }
 }
 
