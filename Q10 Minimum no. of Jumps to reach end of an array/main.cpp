@@ -6,9 +6,7 @@ int minjumpsrecursive(int a[], int n)
 {
    int minjumps=INT_MAX;
    if(n==1)
-   {
        return 0;
-   }
    for(int i=n-2;i>=0;i--)
    {
        if(i+a[i]>=n-1)
