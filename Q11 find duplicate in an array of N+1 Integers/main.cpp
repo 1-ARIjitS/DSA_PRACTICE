@@ -27,9 +27,7 @@ int findduphashing(int a[], int n)
     int hash_n= maximum+1;
     int hash_array[hash_n]={0};
     for(int i=0;i<n;i++)
-    {
         hash_array[a[i]]++;
-    }
     for(int i=0;i<n;i++)
     {
         if(hash_array[i]>=2)
