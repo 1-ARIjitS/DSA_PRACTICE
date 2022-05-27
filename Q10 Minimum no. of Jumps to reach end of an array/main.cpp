@@ -15,9 +15,7 @@ int minjumpsrecursive(int a[], int n)
        {
           int sub_minjumps=minjumpsrecursive(a,i+1);
           if(sub_minjumps<minjumps)
-          {
               minjumps=sub_minjumps+1;
-          }
        }
    }
    return minjumps;
