@@ -30,9 +30,7 @@ int minjumpsoptimized(int a[], int n)
     int halt=0;
     int maximum=0;
     if(a[0]=0)
-    {
         return -1;
-    }
     for(int i=0;i<n-1;i++)
     {
         maximum=max(maximum,a[i]+i);
