@@ -49,9 +49,7 @@ int minjumpsoptimized(int a[], int n)
 
     }
     if(halt>=n-1)
-    {
         return minjumps;
-    }
     return -1;
 }
 
