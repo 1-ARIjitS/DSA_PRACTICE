@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//method 2- using stacks for O(n*lgn) time and O(n) space
+//method 1- using stacks for O(n*lgn) time and O(n) space
 void merge_intervals_stacks(vector<pair<int, int>> &a, int n)
 {
     stack<pair<int,int>> s;
