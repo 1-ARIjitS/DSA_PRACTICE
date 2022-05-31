@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//method 2- single pass approach
+//method 1- single pass approach
 void next_permutation_single_pass(int a[], int n)
 {
     int idx=-1;
