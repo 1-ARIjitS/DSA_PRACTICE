@@ -1,12 +1,6 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//method 1-
-void next_permutation_brute(int a[], int n)
-{
-
-}
-
 //method 2- single pass approach
 void next_permutation_single_pass(int a[], int n)
 {
