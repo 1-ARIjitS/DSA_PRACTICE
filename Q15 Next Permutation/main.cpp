@@ -10,31 +10,31 @@ void next_permutation_brute(int a[], int n)
 //method 2- single pass approach
 void next_permutation_single_pass(int a[], int n)
 {
-    int i=n-1;
-    while(a[i]<a[i-1])
+    int idx=-1;
+    for(int i=n-1;i>=0;i--)
     {
-        i--;
+        if(a[i]>a[i-1])
+        {
+            idx=i;
+            break;
+        }
     }
-    int idx=i;
-    if(idx==0)
+    if(idx==-1)
     {
-        sort(a,a+n);
+        reverse(a,a+n);
     }
     else
     {
-    int min=a[idx-1];
-    int min_great=a[idx];
-    int idx_great=idx;
-    for(int j=idx;j<n;j++)
-    {
-        if(a[j]<min_great && a[j]>min)
+        int prev=idx;
+        for(int i=idx+1;i<n;i++)
         {
-            min_great=a[j];
-            idx_great=j;
+            if(a[i]>a[idx-1] and a[i]<a[prev])
+            {
+                prev=i;
+            }
         }
-    }
-    swap(a[idx-1],a[idx_great]);
-    sort(a+idx,a+n);
+        swap(a[idx-1],a[prev]);
+        reverse(a+idx,a+n);
     }
     for(int i=0;i<n;i++)
     {
