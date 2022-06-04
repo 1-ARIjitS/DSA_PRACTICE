@@ -34,9 +34,7 @@ int mergefunction(int a[], int temp[], int left, int mid, int right)
         }
     }
     while(i<=mid)
-    {
         temp[k++]=a[i++];
-    }
     while(j<=right)
     {
         temp[k++]=a[j++];
