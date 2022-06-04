@@ -10,9 +10,7 @@ int countinversionbrute(int a[], int n)
         for(int j=i+1;j<n;j++)
         {
             if(a[i]>a[j] && i<j)
-            {
                 countinv++;
-            }
         }
     }
     return countinv;
@@ -30,7 +28,7 @@ int mergefunction(int a[], int temp[], int left, int mid, int right)
         if(a[i]<=a[j])
         {
             temp[k++]=a[i++];
-        }
+        }    
         else
         {
             temp[k++]=a[j++];
