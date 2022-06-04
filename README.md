@@ -15,4 +15,8 @@
 <li>Merge 2 sorted arrays without using Extra space</li>
 <li>Kadane's Algo</li>
 <li>Merge Intervals</li>
+<li>Next Permutation</li>
+<li>Count Inversion</li>
+<li>Best time to buy and Sell stock</li>
+<li>find all pairs on integer array whose sum is equal to given number</li>  
 </ol>
