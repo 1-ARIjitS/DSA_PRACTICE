@@ -59,7 +59,7 @@ int countinversionmerge(int a[], int temp[], int left, int right)
 int main()
 {
     int a[]={3,5,2,1,8,6,4,9};
-    //int a[]={8,4,2,1}'
+    //int a[]={8,4,2,1}
     //int a[]={3,1,2};
     int n= sizeof(a)/sizeof(a[0]);
     int left=0;
