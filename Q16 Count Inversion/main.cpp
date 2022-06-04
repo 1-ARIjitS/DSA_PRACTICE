@@ -38,9 +38,7 @@ int mergefunction(int a[], int temp[], int left, int mid, int right)
     while(j<=right)
         temp[k++]=a[j++];
     for(int m=left;m<=right;m++)
-    {
         a[m]=temp[m];
-    }
     return invcount;
 }
 
