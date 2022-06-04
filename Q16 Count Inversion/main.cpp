@@ -26,9 +26,7 @@ int mergefunction(int a[], int temp[], int left, int mid, int right)
     while(i<=mid && j<=right)
     {
         if(a[i]<=a[j])
-        {
-            temp[k++]=a[i++];
-        }    
+            temp[k++]=a[i++];  
         else
         {
             temp[k++]=a[j++];
