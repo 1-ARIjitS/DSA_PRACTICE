@@ -72,6 +72,6 @@ int main()
    int n= sizeof(a)/sizeof(a[0]);
    int k=6;
    //cout<<pairsumcountbrute(a,n,k);
-   cout<<pairsumcountsort(a,n,k);
-   //cout<<pairsumcounthash(a,n,k);
+   //cout<<pairsumcountsort(a,n,k);
+   cout<<pairsumcounthash(a,n,k);
 }
