@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
 //method 1- using unordered map O(n1+n2+n3) time and O(1) space
 void commonmap(int a1[], int a2[], int a3[], int n1, int n2, int n3)
 {
