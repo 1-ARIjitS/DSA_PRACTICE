@@ -18,5 +18,6 @@
 <li>Next Permutation</li>
 <li>Count Inversion</li>
 <li>Best time to buy and Sell stock</li>
-<li>find all pairs on integer array whose sum is equal to given number</li>  
+<li>find all pairs on integer array whose sum is equal to given number</li> 
+<li>find common elements in 3 sorted arrays</li> 
 </ol>
