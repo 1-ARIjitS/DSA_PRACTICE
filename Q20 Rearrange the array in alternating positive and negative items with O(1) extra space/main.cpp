@@ -61,9 +61,67 @@ void rearrangespace(int a[], int n)
         cout<<it<<" ";
     }
 }
+
+//method 1- 3 pointer approach without using extra space
+void rotatesubarray(int a[], int i, int j)
+{
+    while(i<j)
+    {
+        swap(a[i],a[j]);
+        i++;
+    }
+}
+void rearrange3pointer(int a[], int n)
+{
+    //i-> negative pointer
+    //j-> positive pointer
+    int i=0,j=0,k=0;
+    while(k<n)
+    {
+        if(k%2==0 && a[k]<0)
+        {
+            k++;
+        }
+        else if(k%2!=0 && a[k]>0)
+        {
+            k++;
+        }
+        else
+        {
+            i=k;
+            j=k;
+            if(a[k]>0)
+            {
+                while(a[i]>0)
+                {
+                    i++;
+                }
+                if(i<n&&j<n)
+                    rotatesubarray(a,j,i);
+            }
+            else if(a[k]<0)
+            {
+                while(a[i]<0)
+                {
+                    j++;
+                }
+                if(i<n&&j<n)
+                    rotatesubarray(a,i,j);
+            }
+            k++;
+        }
+    }
+
+    for(i=0;i<n;i++)
+    {
+        cout<<a[i]<<" ";
+    }
+}
+
 int main()
 {
     int a[]={1, 2, 3, -4, -1, 4};
     int n= sizeof(a)/sizeof(a[0]);
-    rearrangespace(a,n);
+    //rearrangespace(a,n);
+    rearrange3pointer(a,n);
 }
