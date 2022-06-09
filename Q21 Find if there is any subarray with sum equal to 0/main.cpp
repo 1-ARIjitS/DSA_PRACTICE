@@ -36,9 +36,7 @@ void subarrayaum0map(int a[], int n)
             break;
         }
         else
-        {
             m[sum]=1;
-        }
     }
     if(flag==1)
     {
