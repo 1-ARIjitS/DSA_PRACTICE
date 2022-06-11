@@ -31,7 +31,7 @@ void multiply(node *tail, int i)
     int carry=0;
     while(temp!=NULL)
     {
-        int data=temp->data*n+carry;
+        int data=temp->data*i+carry;
         temp->data=data%10;
         carry=data/10;
         prevnode=temp;
