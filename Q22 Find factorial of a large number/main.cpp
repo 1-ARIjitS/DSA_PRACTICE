@@ -29,7 +29,7 @@ void multiply(node *tail, int i)
     node *temp= tail;
     node *prevnode= tail;
     int carry=0;
-    hile(temp!=NULL)
+    while(temp!=NULL)
     {
         int data=temp->data*n+carry;
         temp->data=data%10;
