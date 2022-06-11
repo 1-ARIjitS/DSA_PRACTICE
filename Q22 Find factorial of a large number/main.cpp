@@ -6,7 +6,12 @@ class node
 {
     public:
     int data;
-    node *next;
+    node *prev;
+    node(int n)
+    {
+        this->data=n;
+        prev=NULL;
+    }
 };
 
 long long factsmall(long long a)
@@ -19,23 +24,38 @@ long long factsmall(long long a)
     return fact;
 }
 
-void factlarge(long long a)
+void multiply(node *tail, int i)
 {
-    //vector<int> v;
-    node *head= new node();
-    head->data=1;
-    head->next=nullptr;
-    int fact=1;
-    int i=2;
-    /*while(fact!=0 && i<=2)
+    node *temp= tail;
+    node *prevnode= tail;
+    int carry=0;
+    hile(temp!=NULL)
     {
-        int rem= (fact*i)%10;
-        fact=
-    }*/
+        int data=temp->data*n+carry;
+        temp->data=data%10;
+        carry=data/10;
+        prevnode=temp;
+        temp=temp->prev;
+    }
+    while(carry!=0)
+    {
+        prevnode->prev= new node((int)carry%10);
+        carry/=10;
+        prevnode= prevnode->prev;
+    }
+}
+void factlarge(int a)
+{
+    node tail(1);
+    for(int i=2;i<a;i++)
+    {
+        multiply(&tail,i);
+    }
 }
 
 int main()
 {
-    long long a=5;
-    cout<<factsmall(a);
+    int a=5;
+    //cout<<factsmall(a);
+    factlarge(a);
 }
