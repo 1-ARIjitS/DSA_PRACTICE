@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//method 1- using brute force leftmax and rightmax in O(n^2) time and O(n^23) space
+//method 1- using brute force leftmax and rightmax in O(n^2) time and O(n^2) space
 int trapwaterbrute(int a[], int n)
 {
     int trapwatersum=0;
