@@ -20,4 +20,15 @@
 <li>Best time to buy and Sell stock</li>
 <li>find all pairs on integer array whose sum is equal to given number</li> 
 <li>find common elements in 3 sorted arrays</li> 
+<li>Rearrange the array in alternating positive and negative items with O(1) extra space</li>
+<li>Find if there is any subarray with sum equal to 0</li>
+<li>Find factorial of a large number</li>
+<li>find maximum product subarray </li>
+<li>Find longest coinsecutive subsequence</li>
+<li>Given an array of size n and a number k, find all elements that appear more than " n/k " times.</li>
+<li>Maximum profit by buying and selling a share atmost twice</li>
+<li>Find whether an array is a subset of another array</li>
+<li>Find the triplet that sum to a given value</li>
+<li>Trapping Rain water problem</li>
+<li>Chocolate Distribution problem</li>
 </ol>
