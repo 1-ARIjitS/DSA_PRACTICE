@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+
 //method 1- using brute force in O(n^2) time and O(1) space
 int minlensubbrute(int a[], int n, int x)
 {
