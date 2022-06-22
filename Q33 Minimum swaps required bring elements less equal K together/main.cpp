@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//method 1- using sliding window approach in O(n^2) time and O(1) space
+//method 1- using sliding window approach in O(n) time and O(1) space
 int minswapsslidingwindow(int a[], int n, int k)
 {
     int fav=0;
