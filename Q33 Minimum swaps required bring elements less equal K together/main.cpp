@@ -45,6 +45,5 @@ int main()
     int a[]={2, 1, 5, 6, 3};
     int n=sizeof(a)/sizeof(a[0]);
     int k=3;
-    //cout<<minswapsbrute(a,n);
     cout<<minswapsslidingwindow(a,n,k);
 }
