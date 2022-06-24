@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
 int median(int a[], int n)
 {
     sort(a,a+n);
