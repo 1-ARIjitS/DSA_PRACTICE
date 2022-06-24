@@ -4,7 +4,7 @@ using namespace std;
 int median(int a[], int n)
 {
     sort(a,a+n);
-    if(n%2==0)//even nunmber of elements
+    if(n%2==0)//even number of elements
     {
         return (a[n/2]+a[n/2-1])/2;
     }
