@@ -8,7 +8,7 @@ int median(int a[], int n)
     {
         return (a[n/2]+a[n/2-1])/2;
     }
-    else//odd no. of elements
+    else//odd number of elements
     {
         return a[n/2];
     }
