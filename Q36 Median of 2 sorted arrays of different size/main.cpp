@@ -92,5 +92,5 @@ int main()
     int a2[]={10, 12, 14, 16, 18, 20};
     int n1= sizeof(a1)/sizeof(a1[0]);
     int n2= sizeof(a2)/sizeof(a2[0]);
-    cout<<"the median obtained is: "<<medianspace2pointer(a1,a2,n1,n2);
+    cout<<medianspace2pointer(a1,a2,n1,n2);
 }
