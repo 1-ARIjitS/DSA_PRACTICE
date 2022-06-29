@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//method 1- using brute force i.e. counting 1's in each 2d array row in O(n*m) time and O(2) space
+//method 1- using brute force i.e. counting 1's in each 2d array row in O(n*m) time and O(1) space
 int max1sbrute(vector<vector<int>>a)
 {
     int rows=a.size();
