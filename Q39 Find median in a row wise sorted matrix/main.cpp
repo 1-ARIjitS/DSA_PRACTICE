@@ -32,7 +32,7 @@ int countsmallerthanmid(vector<int>&row, int mid)
     int hi=row.size()-1;
     while(lo<=hi)
     {
-        int m=(lo+hi)/2;
+        int m=(lo+hi)>>1;//(lo+hi)/2 (right shift by 1)
         if(row[m]<=mid)
         {
             lo=m+1;
@@ -54,7 +54,7 @@ int medianbinsearch(vector<vector<int>>&a)
    int hi=maxarrlen;
    while(lo<=hi)
    {
-       int mid=(lo+hi)/2;//(lo+hi)/2
+       int mid=(lo+hi)>>1;//(lo+hi)/2 (right shift by 1)
        //this counter stores the number of numbers less than equal to mid in all rows
        int counter=0;
        for(int i=0;i<rows;i++)
