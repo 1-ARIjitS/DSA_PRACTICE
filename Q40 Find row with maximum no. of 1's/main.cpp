@@ -37,7 +37,7 @@ int max1sbrutebinsearch(vector<vector<int>>a)
         int lo=0;
         int hi=columns-1;
         int count0s=0;//this variable keeps count of the number of 0's in a particular row
-        int count1s=0;//this variable keeps count of the number of 1s in a particular row
+        int count1s=0;//this variable keeps count of the number of 1's in a particular row
         while(lo<=hi)
         {
             int mid=(lo+hi)/2;
