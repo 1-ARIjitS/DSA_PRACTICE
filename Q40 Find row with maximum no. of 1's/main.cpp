@@ -14,9 +14,7 @@ int max1sbrute(vector<vector<int>>a)
         for(int j=0;j<columns;j++)
         {
             if(a[i][j]==1)
-            {
                 count1++;
-            }
         }
         if(count1>max1count)
         {
