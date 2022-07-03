@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
 void printelesorted(vector<vector<int>>a)
 {
     int rows=a.size();
