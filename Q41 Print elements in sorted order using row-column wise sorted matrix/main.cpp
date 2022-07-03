@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+//method 1- using extra space in O(n*m) time and O(n*m) space 
 void printelesorted(vector<vector<int>>a)
 {
     int rows=a.size();
