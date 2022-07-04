@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//methpd 1- using stacks in O() time and O() space
+//method 1- using stacks in O() time and O() space
 int eachrowrectarea(int auxrect[], int n)
 {
     int res=0;//result to be returned stores the area of max rect in each row
