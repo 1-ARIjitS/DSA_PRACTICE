@@ -55,6 +55,7 @@ int ksmallbinsearch(vector<vector<int>>a, int k)
     {
         //in case of ranges the formula of mid is (lo+hi)/2
         int mid=(lo+hi)/2;
+        
         //this keeps the count of elements less than mid
         int counter=0;
         for(int i=0;i<rows;i++)
