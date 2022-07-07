@@ -28,7 +28,7 @@ int countlessthanmid(vector<int>&rows, int mid)
     int hi=rows.size()-1;
     while(lo<=hi)
     {
-        //in case of indexes formula of mid is lo+(hi-lo)/2
+        //in case of indexes formula of mid= lo+(hi-lo)/2
         int m=lo+(hi-lo)/2;
         //here mid is the key we are searching for in the binary search 
         //we are actually searching how many numbers are less than mid
@@ -55,7 +55,7 @@ int ksmallbinsearch(vector<vector<int>>a, int k)
     {
         //in case of ranges the formula of mid is (lo+hi)/2
         int mid=(lo+hi)/2;
-        
+
         //this keeps the count of elements less than mid
         int counter=0;
         for(int i=0;i<rows;i++)
