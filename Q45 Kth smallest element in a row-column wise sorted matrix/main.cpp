@@ -30,7 +30,8 @@ int countlessthanmid(vector<int>&rows, int mid)
     {
         //in case of indexes formula of mid is lo+(hi-lo)/2
         int m=lo+(hi-lo)/2;
-        //here mid is the key we are searching for in the binary search we are actually searching how many numbers are less than mid
+        //here mid is the key we are searching for in the binary search 
+        //we are actually searching how many numbers are less than mid
         if(rows[m]<=mid)
         {
             lo=m+1;
