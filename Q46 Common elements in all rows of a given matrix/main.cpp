@@ -50,7 +50,7 @@ void commonelemap(vector<vector<int>>a)
         {
             //the variable i and m(x) stores the row number of the element
             //if current element is already present in the map then add 1 to the row number
-            //if current element is already having row no. of elements then it is duplicated in the same row hence, do nothing
+            //if current element is already having elements= row no. then it is duplicated in the same row hence, do nothing
             if(m[a[i][j]]==i)
             {
                m[a[i][j]]=i+1;
