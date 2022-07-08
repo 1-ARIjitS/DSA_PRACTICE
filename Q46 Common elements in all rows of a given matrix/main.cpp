@@ -48,7 +48,7 @@ void commonelemap(vector<vector<int>>a)
     {
         for(int j=0;j<columns;j++)
         {
-            //the variable i and m(x) stores the row number of the ele
+            //the variable i and m(x) stores the row number of the element
             //if current element is already present in the map then add one to the row number
             //if current element is already having row no. of elements then it is duplicated in the same row hence, do nothing
             if(m[a[i][j]]==i)
