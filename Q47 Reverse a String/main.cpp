@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-//method 1- using brute force in O(n) time and O(1) space
+//method 1- using brute force approach i.e. using 2 pointers in O(n) time and O(1) space
 void revstrbrute(string s)
 {
     int n=s.size();
