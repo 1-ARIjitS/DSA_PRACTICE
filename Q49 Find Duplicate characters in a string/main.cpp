@@ -16,7 +16,7 @@ void dupchstrmap(string s)
     {
         if(it.second>1)
         {
-            cout<<it.first<<" "<<"count= "<<it.second<<endl;
+            cout<<it.first<<" "<<"has frequency= "<<it.second<<endl;
         }
     }
 }
