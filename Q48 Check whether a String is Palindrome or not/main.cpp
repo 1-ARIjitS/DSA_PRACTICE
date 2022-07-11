@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+// using a single loop in O(n) time and O(1) space
 int ispalindrome(string s)
 {
     int i=0;
