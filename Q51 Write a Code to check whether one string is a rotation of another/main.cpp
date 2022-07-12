@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//method 1- using string concatenation in O(n1+n2) time and O(n1+n) space
+//method 1- using string concatenation in O(n1+n2) time and O(n1+n2) space
 void isrotconcat(string s1, string s2)
 {
     int n1=s1.length();
