@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-//method 1- using 3 pointer approach in O(n3) or O(n1+n2) time and O(1) space
+//method 1- using 3 pointer approach in O(n1+n2) time and O(1) space
 void validstr3pointer(string s1, string s2, string s3)
 {
     int n1= s1.length();
