@@ -8,7 +8,7 @@ void allsubstr(string s)
     for(int i=0;i<n;i++)
     {
         //string s1="";
-        s1+=s[i];
+        //s1+=s[i];
         for(int j=i+1;j<n;j++)
         {
             //s1+=s[j];
