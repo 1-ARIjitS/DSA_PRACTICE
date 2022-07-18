@@ -117,6 +117,7 @@ void longpalinsubstrexpandcentre(string s)
             lo--;
             hi++;
         }
+        
         //for odd substring
         lo=i-1;
         hi=i+1;
