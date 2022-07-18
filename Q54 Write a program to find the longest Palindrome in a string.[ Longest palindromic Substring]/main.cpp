@@ -7,7 +7,7 @@ void allsubstr(string s)
     int n=s.length();
     for(int i=0;i<n;i++)
     {
-        string s1="";
+        //string s1="";
         s1+=s[i];
         for(int j=i+1;j<n;j++)
         {
