@@ -12,7 +12,7 @@ void allsubstr(string s)
         for(int j=i+1;j<n;j++)
         {
             //s1+=s[j];
-            cout<<s1<<endl;
+            //cout<<s1<<endl;
             //cout<<s.substr(i,(j-i)+1)<<endl;
         }
     }
