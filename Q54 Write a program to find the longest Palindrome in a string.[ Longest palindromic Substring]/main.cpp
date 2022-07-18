@@ -7,13 +7,13 @@ void allsubstr(string s)
     int n=s.length();
     for(int i=0;i<n;i++)
     {
-        //string s1="";
-        //s1+=s[i];
+        string s1="";
+        s1+=s[i];
         for(int j=i+1;j<n;j++)
         {
-            //s1+=s[j];
-            //cout<<s1<<endl;
-            cout<<s.substr(i,(j-i)+1)<<endl;
+            s1+=s[j];
+            cout<<s1<<endl;
+            //cout<<s.substr(i,(j-i)+1)<<endl;
         }
     }
 }
