@@ -41,7 +41,7 @@ int main()
     int a[]={1,5,6,7,3,4,2,0,8,9};
     int n= sizeof(a)/sizeof(a[0]);
     bubblesortrec(a,n);
-    //bubblesort(a,n);
+    //bubblesortsimple(a,n);
     for(int i=0;i<n;i++)
     {
         cout<<a[i]<<" ";
