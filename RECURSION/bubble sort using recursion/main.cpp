@@ -23,8 +23,6 @@ void bubblesortrec(int a[], int n)
     {
         return;
     }
-    else
-    {
        for(int i=0;i<n;i++)
        {
            if(a[i+1]<a[i])
@@ -33,7 +31,6 @@ void bubblesortrec(int a[], int n)
            }
        }
        bubblesortrec(a,n-1);
-    }
 }
 
 int main()
