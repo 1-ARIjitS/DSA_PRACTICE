@@ -32,7 +32,7 @@ void bubblesortrec(int a[], int n)
                swap(a[i],a[i+1]);
            }
        }
-       bubblesort(a,n-1);
+       bubblesortrec(a,n-1);
     }
 }
 
