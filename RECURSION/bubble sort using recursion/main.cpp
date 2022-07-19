@@ -2,7 +2,7 @@
 
 using namespace std;
 //simple bubble sort using loops
-void bubblesort(int a[], int n)
+void bubblesortsimple(int a[], int n)
 {
     for(int i=0;i<n;i++)
     {
