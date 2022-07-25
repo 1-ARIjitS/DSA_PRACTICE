@@ -24,7 +24,7 @@ void permstrrec(string s, vector<string>&perm, int index)
             //recursive call for handling all other cases
             permstrrec(s,perm,index+1);
 
-            //backtrack to restore the swapped string to original string for further swapping and inconsistencies are avoided
+            //backtrack to  the swapped string to original string for further swapping and inconsistencies are avoided
             swap(s[j],s[index]);
         }
     }
