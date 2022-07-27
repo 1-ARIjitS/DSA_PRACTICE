@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//Q2- Checking if palindrome or not using recursion
+//Checking if palindrome or not using recursion
 //using the code for reversing the string
 bool ispalinrec(string s, int n)
 {
