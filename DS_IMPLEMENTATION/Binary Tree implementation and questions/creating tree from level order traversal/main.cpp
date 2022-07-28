@@ -125,6 +125,8 @@ int main()
 {
     node* root;
     //root= create_tree(root);
+
+    //creating a tree from level order traversal
     root= create_tree_from_level_order_traversal(root);
     level_order_traversal(root);
     cout<<endl;
